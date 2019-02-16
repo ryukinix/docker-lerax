@@ -1,5 +1,5 @@
 FROM debian:9.7
-RUN apt-get update && apt-get install sudo git curl bash emacs25 -y
+RUN apt-get update && apt-get install sudo git curl bash emacs25-nox -y
 RUN curl -sL dotfiles.lerax.me | bash
 RUN emacs --daemon # force emacs download packages and quit
 RUN apt-get install zsh -y
