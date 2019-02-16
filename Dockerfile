@@ -10,4 +10,6 @@ ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 RUN locale-gen
+ENV SHELL=/bin/zsh
+WORKDIR /workspace
 ENTRYPOINT ["emacs"]
