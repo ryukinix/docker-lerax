@@ -11,5 +11,6 @@ ENV LANGUAGE en_US:en
 ENV LC_ALL en_US.UTF-8
 RUN locale-gen
 ENV SHELL=/bin/zsh
+ENV TERM=xterm-256color
 WORKDIR /workspace
 ENTRYPOINT ["emacs"]
