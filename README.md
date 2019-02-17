@@ -1,4 +1,4 @@
-# How I can use it?
+# How can I use it?
 
 ```bash
 docker run -it ryukinix/lerax
