@@ -1,4 +1,4 @@
-FROM debian:10.4
+FROM debian:bullseye
 RUN apt-get update && apt-get install sudo git curl bash emacs-nox -y
 RUN curl -sL dotfiles.lerax.me | bash
 RUN emacs --daemon # force emacs download packages and quit
